@@ -1,21 +1,29 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-buttons slot="start">
+    <ion-buttons slot="end" side="end">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
+    <ion-title color="primary" ></ion-title>
+    <div class="container">
+    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/free-logo-design-for-paint-ink-creative-template-b20133b47fab9a2290a9874d53a838f7_screen.jpg?ts=1574079014"/>
+  </div>
+  
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+  
+  
+  <ion-col class="ion-margin-start">
+    <div >
+      <ion-title color="primary"  >{{ folder }}</ion-title>
+    </div>
+  </ion-col>
+    
+  
   <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <strong class="capitalize" color="primary">Mcap Profile</strong>
+    <p> <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=r2ga-iXS5i4&t=11589s"><ion-icon name="logo-youtube" size="large"></ion-icon></a></p>
+    
   </div>
 </ion-content>
